@@ -56,20 +56,20 @@ float Dividir(float num1,float num2)
 
 /**
  * \brief Realiza el factorial de un numero
- * \param valor1 valor a calcular
+ * \param valor a calcular
  * \return El factorial del parametro
  *
  */
-int Factorial(float num)
+float Factorial(float num)
 {
-    int factorial;
-    int resultado=1;
-    factorial=(int)num;
-    while(factorial>1){
-        resultado=resultado*factorial;
-        factorial=factorial-1;
+    int i,fact =1,n;
+    n = (int)num;
+    for(i=1;i<=n;i++)
+    {
+        fact = fact * i;
     }
-    return resultado;
+
+    return (float)fact;
 }
 
 

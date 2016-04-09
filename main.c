@@ -3,7 +3,7 @@
 #include <string.h>
 #include "funciones.h"
 #include "operacionesMat.h"
-
+#define CANT 5
 /*Variables globales*/
 float val1 = 0.0;
 float val2 = 0.0;
@@ -34,7 +34,7 @@ int main()
         {
             case 1:
                 system("cls");
-                 val1 = getFloat("Ingrese 1er operando: ");
+                val1 = getFloat("Ingrese 1er operando: ");
                 break;
             case 2:
                 system("cls");
@@ -91,15 +91,15 @@ int main()
 void LimpiarValores()
 {
      val1=0.0;
-     val1=0.0;
+     val2=0.0;
      resultado = 0.0;
 }
 
 void OperarTodo(float val1,float val2)
 {
     int i = 0;
-    float vecResult[4];
-    char NombresOp[4][20];
+    float vecResult[CANT];
+    char NombresOp[CANT][20];
 
     char strS[20]  = "-La suma";
     char strR[20]  = "-La resta";
@@ -119,7 +119,7 @@ void OperarTodo(float val1,float val2)
     vecResult[3] = Multiplicar(val1,val2);
     vecResult[4] = Factorial(val1);
     /*Muestro Resultado de Operaciones*/
-    for(i=0; i<5;i++)
+    for(i=0; i<CANT;i++)
     {
         printf("%s es %.2f \n",NombresOp[i],vecResult[i]);
     }

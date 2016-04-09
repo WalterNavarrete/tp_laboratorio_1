@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1460065812 source:c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\funciones.c
+1460067512 source:c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\funciones.c
 	<stdio.h>
 	<stdlib.h>
 
-1460064515 source:c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\operacionesmat.c
+1460140442 source:c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\operacionesmat.c
 	<stdio.h>
 	<stdlib.h>
 
-1460067479 source:c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\main.c
+1460141070 source:c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -16,5 +16,5 @@
 
 1460065323 c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\funciones.h
 
-1460062048 c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\operacionesmat.h
+1460140442 c:\users\walter.navarrete\desktop\utn\tp1_walternavarrete_1f\operacionesmat.h
 
